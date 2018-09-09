@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>jQuery</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<!-- style -->
+	<link rel="stylesheet" href="css/main.min.css">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
+</head>
+
+<body>
+
+	<header id="header" class="header" style="display: none;">
+		<div class="container">
+			<a href="#popup" class="popup-link">Popup-link</a>
+			<div id="popup" class="mfp-hide popup">
+				<form>
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Site Name">
+					<input type="hidden" name="admin_email" value="i.karasovv@gmail.com">
+					<input type="hidden" name="form_subject" value="Тема сообщения">
+					<!-- END Hidden Required Fields -->
+					
+					<input type="text" name="Name" placeholder="Ваше имя..." required>
+					<input type="text" name="E-mail" placeholder="Ваш E-mail..." required>
+					<input type="text" name="Phone" placeholder="Тел. номер..." required>
+					<button id="btn-send">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</header> 
+
+	<section class="home">
+
+			<section id="num-1">	
+				<div class="logo clearfix">
+					<span>
+						<img src="https://www.fixpocket.com/public_assets/uploads/beats/1496218155Logo_1.png" alt="" class="img-responsive">
+						<div id="btn-hide" >
+							<i class="fas fa-bars"></i>
+						</div>
+					</span>
+				</div>
+			<div class="left-sidebar">
+				<nav>
+					<strong class="category">Категория</strong>
+					<ul class="ul-class">
+						<li id="li-1">
+							<strong>Электроника</strong>
+							<span class="span-class">
+								<ul>
+									<li>
+										<a href="#">Один</a>
+									</li>
+									<li>
+											<a href="#">Два</a>
+									</li>
+									<li>
+										<a href="#">Три</a>
+									</li>
+									<li>
+										<a href="#">Четыре</a>
+									</li>
+								</ul>
+							</span>
+						</li>
+						<li id="li-2">
+							<strong>Проекты</strong>
+							<span class="span-class">
+								<ul>
+									<li>
+										<a href="#">Один</a>
+									</li>
+									<li>
+											<a href="#">Два</a>
+									</li>
+									<li>
+										<a href="#">Три</a>
+									</li>
+									<li>
+										<a href="#">Четыре</a>
+									</li>
+								</ul>
+							</span>
+						</li>
+						<li id="li-3">
+							<strong>Задачи</strong>
+							<span class="span-class">
+								<ul>
+									<li>
+										<a href="#">Один</a>
+									</li>
+									<li>
+											<a href="#">Два</a>
+									</li>
+									<li>
+										<a href="#">Три</a>
+									</li>
+									<li>
+										<a href="#">Четыре</a>
+									</li>
+								</ul>
+							</span>
+						</li>
+						<li id="li-4">
+							<strong>О нас</strong>
+							<span class="span-class">
+								<ul>
+									<li>
+										<a href="#">Один</a>
+									</li>
+									<li>
+											<a href="#">Два</a>
+									</li>
+									<li>
+										<a href="#">Три</a>
+									</li>
+									<li>
+										<a href="#">Четыре</a>
+									</li>
+								</ul>
+							</span>
+						</li>
+						<li id="li-5">
+							<strong>Скидки</strong>
+							<span class="span-class">
+								<ul>
+									<li>
+										<a href="#">Один</a>
+									</li>
+									<li>
+											<a href="#">Два</a>
+									</li>
+									<li>
+										<a href="#">Три</a>
+									</li>
+									<li>
+										<a href="#">Четыре</a>
+									</li>
+								</ul>
+							</span>
+						</li>
+						<li id="li-6">
+							<strong>Партнеры</strong>
+							<span class="span-class">
+								<ul>
+									<li>
+										<a href="#">Один</a>
+									</li>
+									<li>
+											<a href="#">Два</a>
+									</li>
+									<li>
+										<a href="#">Три</a>
+									</li>
+									<li>
+										<a href="#">Четыре</a>
+									</li>
+								</ul>
+							</span>
+						</li>
+					</ul>
+				<div class="messangers">
+					<strong class="title-messangers">Мы в соц.сетях</strong>
+					<span>
+						<ul>
+							<li>
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-telegram-plane"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+						</ul>
+					</span>
+				</div>
+				<div class="search">
+					<form action="" method="get">
+					  <input name="s" placeholder="Поиск" type="search">
+					  <button type="submit">Поиск</button>
+					</form>
+				</div>
+				<div class="develop">
+					<a href="#">Условия использования</a><br>
+					<a href="#">Конфиденциальность</a><br>
+					<a href="#">Правила и безопасность</a><br>
+				</div>
+			</div>
+		</nav>
+		</section>
+
+			<section id="num-2">
+				<div class="container">
+					ommodi. Vitae a excepturi nam vero eligendi ad dolorem distinctio, facilis assumenda minus labore laboriosam officiis maiores cum harum in voluptatum perferendis? Adipisci omnis rem iure aliquid, numquam explicabo ipsum quod qui sunt non, deserunt totam fuga iste, aperiam aut voluptas. Beatae accusantium odit amet delectus illum, ea laborum ut nam modi eveniet. Aliquid officia optio itaque exercitationem modi ab et beatae iure dicta ducimus cum delectus vero reprehenderit quibusdam neque repudiandae, nostrum ipsam aperiam. Dolor qui dolorem ratione cum delectus magni rem nihil vitae, illo hic ducimus ut error. Numquam debitis labore, iste esse neque facilis accusamus distinctio illo? Inventore reiciendis totam unde architecto repellendus, ea, ipsa, quaerat porro esse minima quia commodi explicabo necessitatibus similique sed provident aliquam earum? Expedita similique iusto cum sint asperiores eos odio reprehenderit eius pariatur soluta reiciendis natus animi in voluptatem non beatae nam, quos perspiciatis necessitatibus mollitia possimus, esse molestiae. Excepturi mollitia odio, omnis impedit, voluptatibus aspernatur saepe quas harum molestias itaque, labore aliquid libero, similique unde. Quibusdam atque nulla alias aliquid quasi laborum dolorem. Cumque doloribus a nihil culpa, tempora earum quibusdam nostrum nulla mollitia, dignissimos aliquam quia explicabo amet suscipit quaerat animi quas vero aspernatur eum repellendus repellat cum ipsam velit porro. Quidem eum possimus nulla, vero porro maiores distinctio rem, quam nesciunt debitis id. Aliquid omnis perspiciatis consectetur optio placeat nisi aperiam natus ipsa, laudantium modi impedit excepturi. Id quam excepturi, aspernatur ipsam molestiae suscipit hic, magni sit adipisci nesciunt vitae repellendus odit recusandae quaerat? Labore illum quod maiores repellat ad autem quos consequatur fugiat aliquam repudiandae libero, nostrum error repellendus minima ex eos sequi iste quia velit blanditiis voluptatibus similique, rerum porro. Blanditiis illo alias, dicta id accusamus exercitationem autem voluptates voluptas veritatis eos quae corrupti in doloremque, dolor cum, voluptatum non dolorem quam nemo facilis, rerum eius voluptate. Voluptatum debitis omnis voluptatem tempora ut in obcaecati, at quam architecto quia delectus, similique sed inventore labore necessitatibus voluptas non, quae praesentium a nulla eligendi et fugit! Magnam ut culpa eveniet vel modi esse pariatur odio repellat veritatis unde hic expedita facilis iure non, quibusdam, mollitia illum possimus laudantium. Sequi consequuntur voluptates laborum accusamus fugit, incidunt consectetur nm error aut! Suscipit provident, mollitia voluptatem non tempore at dolorem debitis sapiente amet accusamus necessitatibus ducimus, quisquam deserunt a adipisci quo atque voluptates vero reprehenderit laborum placeat libero. Unde aspernatur quis necessitatibus aut pariatur maxime iure asperiores repellendus dolorem et distinctio vero itaque voluptatem quia cumque ratione possimus, provident reiciendis. Quae modi libero fugiat ipsum error. Est voluptate minus fugiat officia expedita magnam illum ex id hic beatae iure, architecto dicta maxime, fugit enim! Inventore odit nisi ab deleniti perspiciatis quo, itaque architecto cupiditate facere, eos labore distinctio maiores, illum hic recusandae vero placeat. Placeat quam quod vel? Ratione reprehenderit rerum magni esse, quod deserunt eos eum nisi vel distinctio, perspiciatis porro ipsam quo vero.
+				</div>
+			</section>
+
+
+	</section>
+	
+
+	
+
+	<script src="js/scripts.min.js"></script>
+	<script type="text/javascript">
+	VK.Widgets.Group("vk_groups", {mode: 3, width: "200"}, 153395342);
+	</script>
+</body>
+</html>
